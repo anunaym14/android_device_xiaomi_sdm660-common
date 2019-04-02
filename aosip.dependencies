@@ -12,5 +12,9 @@
     "repository": "proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
     "branch": "ten-common"
+  },
+  {
+    "repository": "vendor_dirac",
+    "target_path": "vendor/dirac"
   }
 ]
