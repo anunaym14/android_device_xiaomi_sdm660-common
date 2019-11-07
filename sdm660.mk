@@ -216,6 +216,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.2-service.clearkey
 
+# Encryption
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.cryptfshw@1.0-service-qti.kernel
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
@@ -250,10 +254,6 @@ PRODUCT_COPY_FILES += \
 # Healthd
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service
-
-# HW crypto
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.cryptfshw@1.0-service-ioctl-qti
 
 # HIDL
 PRODUCT_PACKAGES += \
